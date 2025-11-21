@@ -1,1 +1,4 @@
-/target
+target/
+ctrlset_cli/target/
+ctrlset_gui/target/
+**/Cargo.lock

@@ -1,6 +1,5 @@
-[package]
-name = "ctrlset"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
+[workspace]
+members = [
+    "ctrlset_cli",
+    "ctrlset_gui",
+]
