@@ -5,7 +5,10 @@ edition = "2021"
 
 # rdev and its platform-specific dependencies are no longer needed.
 [dependencies]
+toml = "0.8"
+rfd = "0.14"
 eframe = "0.27.2"
+directories = "5.0"
 egui = "0.27.2"
 fuzzy-matcher = "0.3.7"
 serde = { version = "1.0", features = ["derive"] }
